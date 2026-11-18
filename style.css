@@ -1,0 +1,161 @@
+
+body {
+    background-color: #0b192c;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #142c49;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    color: #f4c76b;
+    font-size: 40px;
+}
+
+section {
+    background-color: #193653;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #f4c76b;
+}
+
+/* Animación del título */
+header h1 {
+    animation: aparecer 1.5s ease;
+}
+
+/* Animación de la tarjeta */
+section {
+    animation: aparecer 2s ease;
+}
+
+/* Efecto cuando pasamos el mouse */
+section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+
+/* Definimos la animación */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Diseño del menú */
+nav {
+    background-color: #10253e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #f4c76b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Cuando pasamos el mouse */
+nav a:hover {
+    color: white;
+}
+
+/* Desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Tarjetas de los cursos */
+.curso {
+    background-color: #10253e;
+    border: 1px solid #f4c76b;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    transition: transform 0.3s;
+}
+
+.curso h3 {
+    color: #f4c76b;
+    margin-top: 0;
+}
+
+.curso p {
+    margin: 5px 0;
+}
+
+/* Animación al pasar el mouse */
+.curso:hover {
+    transform: scale(1.02);
+    background-color: #244666;
+}
+
+/* Enlaces de contacto */
+#contacto a {
+    color: #f4c76b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contacto a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Enlaces del profesor y compañeros */
+#companeros a {
+    color: #f4c76b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#companeros a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Subtítulos de Sobre mí */
+#sobre-mi h3 {
+    color: #f4c76b;
+    margin-top: 25px;
+}
+
+/* Espacio entre elementos */
+#sobre-mi p {
+    line-height: 1.6;
+}
+
+#sobre-mi li {
+    margin-bottom: 8px;
+}
+
+
+
+/* Enlaces de los profesores */
+.curso a {
+    color: #f4c76b;
+    text-decoration: none;
+}
+
+.curso a:hover {
+    color: white;
+    text-decoration: underline;
+}

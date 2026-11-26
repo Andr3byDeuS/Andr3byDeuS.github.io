@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://andr3bydeus.github.io/sitemap.xml

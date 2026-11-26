@@ -1,167 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio | Víctor Andrés</title>
+    <meta name="description" content="Portafolio personal de Víctor Quispe, estudiante de Ciencia de la Computación en la Universidad Católica San Pablo (UCSP), Arequipa. Conoce mis cursos, habilidades y proyectos.">
+    <meta name="author" content="Victor Andree Quispe Pilluca">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://andr3bydeus.github.io/">
+    <title>Victor Andree Quispe Pilluca</title>
+    <link rel="icon" type="image/png" href="perfil.png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
+    <header class="portada" id="inicio">
+        <div class="estrellas" aria-hidden="true"></div>
+        <div class="portada-contenido">
+            <div class="presentacion">
+                <p class="etiqueta">ESTUDIANTE · UCSP · CIENCIA DE LA COMPUTACIÓN</p>
+                <h1>VÍCTOR <span>QUISPE</span></h1>
+                <p class="descripcion">Estudiante de Ciencia de la Computación en la Universidad Católica San Pablo. Me interesan la programación, la tecnología y los videojuegos.</p>
+                <div class="botones">
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="https://github.com/Andr3byDeuS" target="_blank" rel="noopener noreferrer">Mi GitHub</a>
+                </div>
+            </div>
+            <div class="personaje">
+                <img src="luffy.gif" alt="Luffy Gear 5 en pixel art animado" class="luffy">
+            </div>
+        </div>
+        <div class="mar" aria-hidden="true">
+            <div class="ola ola-atras"></div>
+            <div class="ola ola-medio"></div>
+            <div class="ola ola-frente"></div>
+        </div>
+    </header>
 
-<header>
-    <h1>¡Hola! Soy Víctor Andrés</h1>
-    <p>Estudiante de Ciencia de la Computación en la UCSP</p>
-</header>
+    <nav class="menu" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#cursos">Mis cursos</a>
+        <a href="#companeros">Compañeros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-<nav>
-    <a href="#sobre-mi">Sobre mí</a>
-    <a href="#cursos">Mis cursos</a>
-    <a href="#companeros">Compañeros</a>
-    <a href="#contacto">Contacto</a>
-</nav>
+    <main>
+        <section id="sobre-mi" class="panel">
+            <h2>Sobre mí</h2>
+            <p>Soy Víctor Andrés Quispe Pilluca, estudiante de Ciencia de la Computación en la Universidad Católica San Pablo (UCSP).</p>
+            <p>Me interesa la programación, la tecnología y el desarrollo de software. Actualmente estoy aprendiendo lenguajes como C++ y Python.</p>
+            <h3>Mis habilidades</h3>
+            <ul>
+                <li>Programación básica en C++</li>
+                <li>Conocimientos básicos de Python</li>
+                <li>HTML y CSS</li>
+                <li>Trabajo en equipo</li>
+            </ul>
+            <h3>Mis intereses</h3>
+            <p>Me gustan los videojuegos, la informática y aprender cosas nuevas. También disfruto el anime y los proyectos creativos.</p>
+            <h3>Mi objetivo</h3>
+            <p>Seguir mejorando mis conocimientos y crear proyectos propios mientras avanzo en la carrera.</p>
+        </section>
 
-<section id="sobre-mi">
-    
-<section id="sobre-mi">
-    <h2>Sobre mí</h2>
+        <section id="cursos" class="panel">
+            <h2>Mis cursos</h2>
+            <p>Estos son los cursos que llevo en la UCSP y mis profesores. Los nombres resaltados tienen enlace a LinkedIn.</p>
+            <div class="curso">
+                <h3>Comunicación I</h3>
+                <p>María Teresa Calle San Román de Bustamante</p>
+            </div>
+            <div class="curso">
+                <h3>Fundamentos Matemáticos para Computación</h3>
+                <p><a href="https://www.linkedin.com/in/fiorella-mar%C3%ADa-rend%C3%B3n-garc%C3%ADa-7aa9b7374/" target="_blank" rel="noopener noreferrer">Fiorella María Rendón García</a></p>
+            </div>
+            <div class="curso">
+                <h3>Historia de Occidente</h3>
+                <p><a href="https://www.linkedin.com/in/m%C3%B3nica-widmann-orihuela-a85a3653/" target="_blank" rel="noopener noreferrer">Mónica Jesús Widmann Orihuela</a></p>
+            </div>
+            <div class="curso">
+                <h3>Introducción a Computación</h3>
+                <p><a href="https://pe.linkedin.com/in/ecuadrosv" target="_blank" rel="noopener noreferrer">Ernesto Cuadros Vargas</a></p>
+                <p><a href="https://www.linkedin.com/in/rosmery-violeta-quispe-zavala-58374638/" target="_blank" rel="noopener noreferrer">Rosmery Violeta Quispe Zavala</a></p>
+            </div>
+            <div class="curso">
+                <h3>Programación Orientada a Objetos</h3>
+                <p><a href="https://pe.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143" target="_blank" rel="noopener noreferrer">Kelly Vizconde La Motta</a></p>
+                <p><a href="https://www.linkedin.com/in/ginamunozsalas/" target="_blank" rel="noopener noreferrer">Gina Lucía Muñoz Salas</a></p>
+            </div>
+        </section>
 
-    <p>
-        Soy Víctor Andrés Quispe Pilluca, estudiante de Ciencia
-        de la Computación en la Universidad Católica
-        San Pablo (UCSP).
-    </p>
+        <section id="companeros" class="panel">
+            <h2>Profesor y compañeros</h2>
+            <div class="curso">
+                <h3>Página del profesor</h3>
+                <p>Ernesto Cuadros Vargas</p>
+                <p><a href="https://socios.spc.org.pe/ecuadros/" target="_blank" rel="noopener noreferrer">Visitar su página web ↗</a></p>
+            </div>
+            <div class="curso">
+                <h3>Páginas de compañeros</h3>
+                <p><a href="https://wesudobones.github.io/page/" target="_blank" rel="noopener noreferrer">Christopher Alexander Osnayo Mamani ↗</a></p>
+                <p><a href="https://andrew-oremour.github.io/" target="_blank" rel="noopener noreferrer">Andree Fabiano Huamani Pizarro ↗</a></p>
+                <p><a href="https://loelill.github.io/" target="_blank" rel="noopener noreferrer">Loeli Llacho ↗</a></p>
+                <p><a href="https://ximm-xo.github.io/pagina/" target="_blank" rel="noopener noreferrer">Ximena Guerra Ccori ↗</a></p>
+            </div>
+        </section>
 
-    <p>
-        Me interesa la programación, la tecnología
-        y el desarrollo de software. Actualmente estoy
-        aprendiendo lenguajes como C++ y Python.
-    </p>
-
-    <h3>Mis habilidades</h3>
-    <ul>
-        <li>Programación básica en C++</li>
-        <li>Programación en Python</li>
-        <li>HTML y CSS</li>
-        <li>Trabajo en equipo</li>
-    </ul>
-
-    <h3>Mis intereses</h3>
-    <p>
-        Me gustan los videojuegos shooters, la tecnología
-        y aprender cosas nuevas relacionadas
-        con la informática.
-    </p>
-
-    <h3>Mi objetivo</h3>
-    <p>
-        Mi objetivo es seguir mejorando mis habilidades
-        de programación y desarrollarme profesionalmente
-        en el área de Ciencia de la Computación.
-    </p>
-</section>
-
-
-
-<section id="cursos">
-    <h2>Mis cursos</h2>
-    <p>Estos son los cursos que llevo en la UCSP y sus profesores.</p>
-
-    <div class="curso">
-        <h3>Comunicación I</h3>
-        <p>María Teresa Calle San Román de Bustamante</p>
-    </div>
-
-    <div class="curso">
-        <h3>Fundamentos Matemáticos para Computación</h3>
-        <p>
-            <a href="https://www.linkedin.com/in/fiorella-mar%C3%ADa-rend%C3%B3n-garc%C3%ADa-7aa9b7374/" target="_blank">
-                Fiorella María Rendón García
-            </a>
-        </p>
-    </div>
-
-    <div class="curso">
-        <h3>Historia de Occidente</h3>
-        <p>
-            <a href="https://www.linkedin.com/in/m%C3%B3nica-widmann-orihuela-a85a3653/" target="_blank">
-                Mónica Jesús Widmann Orihuela
-            </a>
-        </p>
-    </div>
-
-    <div class="curso">
-        <h3>Introducción a Computación</h3>
-        <p>
-            <a href="https://pe.linkedin.com/in/ecuadrosv" target="_blank">
-                Ernesto Cuadros Vargas
-            </a>
-        </p>
-        <p>
-            <a href="https://www.linkedin.com/in/rosmery-violeta-quispe-zavala-58374638/" target="_blank">
-                Rosmery Violeta Quispe Zavala
-            </a>
-        </p>
-    </div>
-
-    <div class="curso">
-        <h3>Programación Orientada a Objetos</h3>
-        <p>
-            <a href="https://pe.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143" target="_blank">
-                Kelly Vizconde La Motta
-            </a>
-        </p>
-        <p>
-            <a href="https://www.linkedin.com/in/ginamunozsalas/" target="_blank">
-                Gina Lucía Muñoz Salas
-            </a>
-        </p>
-    </div>
-</section>
-
-
-
-<section id="companeros">
-    <h2>Mi profesor y compañeros</h2>
-
-    <h3>Página del profesor</h3>
-    <div class="curso">
-        <p>Ernesto Cuadros Vargas</p>
-        <a href="https://socios.spc.org.pe/ecuadros/"
-           target="_blank">
-            Visitar página web
-        </a>
-    </div>
-
-    <h3>Mis compañeros</h3>
-    <div class="curso">
-        <p>Diego Huancara</p>
-        <p>Enlace pendiente</p>
-    </div>
-</section>
-
-
-<section id="contacto">
-    <h2>Contacto</h2>
-    <p>Puedes encontrarme en estas plataformas:</p>
-
-    <p>
-        <a href="https://github.com/Andr3byDeuS"
-           target="_blank">
-            Mi GitHub
-        </a>
-    </p>
-
-    <p>
-        <a href="https://www.linkedin.com/in/victor-andrés-quispe-pilluca-a8ab9a449/"
-           target="_blank">
-            Mi LinkedIn
-        </a>
-    </p>
-</section>
-
+        <section id="contacto" class="panel">
+            <h2>Contacto</h2>
+            <p>Estos son mis perfiles para conocer más sobre mis proyectos.</p>
+            <div class="enlaces">
+                <a href="https://github.com/Andr3byDeuS" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/victor-andr%C3%A9s-quispe-pilluca-a8ab9a449/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+        </section>
+    </main>
+    <footer>Víctor Quispe · Ciencia de la Computación · UCSP · 2026</footer>
 </body>
-
 </html>
